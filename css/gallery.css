@@ -1,0 +1,51 @@
+.polaroid-gallery {
+  flex: 0 0 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 25px;
+  padding-left: 20px;
+}
+
+
+.polaroid {
+  background-color: white;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  width: 260px;
+  height: 340px; 
+  display: flex;
+  flex-direction: column;  
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;       
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.polaroid img {
+  width: 100%;
+  height: 75%;       
+  object-fit: cover; 
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+
+.polaroid .caption {
+    font-family: 'Handlee', serif;;
+    font-size: 20px;
+    color: var(--onyx);
+    margin-top: 10px;
+    font-style: bold;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+  padding: 40px;
+  justify-items: center;
+}

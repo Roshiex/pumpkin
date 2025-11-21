@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Yellowtail&display=swap');
+
+
+:root {
+/* Colours */
+--onyx: #393d3fff;
+--tiffany-blue: #70cad1ff;
+--lavender-floral: #c287e8ff;
+
+/* Fonts */
+--font-body: "Poppins", sans-serif;
+--font-title: "Yellowtail", cursive;
+--font-subtitle: "Poppins", sans-serif;
+}
