@@ -6,9 +6,21 @@
 --onyx: #393d3fff;
 --tiffany-blue: #70cad1ff;
 --lavender-floral: #c287e8ff;
+--ebony: #586358;
+--mid-grey: #8a8f7f;
+--horses: #5b4636;
+--floral-white: #fffaf5;
+--alabaster: #F2EEDF;
+--blush:#fff4f8;
 
 /* Fonts */
 --font-body: "Poppins", sans-serif;
 --font-title: "Yellowtail", cursive;
 --font-subtitle: "Poppins", sans-serif;
+--font-hero: "Handlee", serif;
+--font-heroh2: 'Shadows Into Light', serif;
+--font-classified: 'Courier New', monospace;
+--font-cursive:"Dancing Script", cursive;
+--font-nav:'Cherry Swash', serif;
+--font-h2:"Lugrasimo", cursive;
 }

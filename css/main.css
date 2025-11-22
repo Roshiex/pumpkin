@@ -1,5 +1,4 @@
 
-
 header {
     position: fixed;
     padding: 20px 0;
@@ -39,7 +38,7 @@ body {
     margin-top: 30px;
     left: 50%;
     transform: translateX(-50%);
-    font-family: "Dancing Script", cursive;
+    font-family: var(--font-cursive);
     font-size: 48px;
     z-index: 10; 
     position: relative;
@@ -58,7 +57,7 @@ nav.sidebar {
     background-color: var(--onyx);
     padding: 20px;
     box-sizing: border-box;
-    font-family: 'Cherry Swash', serif;
+    font-family: var(--font-nav);
     text-align: center;
     z-index: 90;
     font-size: 22px;
@@ -82,12 +81,12 @@ nav.sidebar li a {
 }
 
 nav.sidebar li a:hover {
-    background-color: #586358;
+    background-color: var(--ebony);
     color: white;
 }
 
 nav.sidebar li a.active {
-    background-color: #8a8f7f;
+    background-color: var(--mid-grey);
     color: white;
     font-weight: bold;
 }
@@ -106,6 +105,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: auto;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-body);
     font-size: 12px;
 }
