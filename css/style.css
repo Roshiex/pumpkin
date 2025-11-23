@@ -8,7 +8,7 @@
   gap: 15px;
 }
 
-/* ===== About Section ===== */
+/* ===== About ===== */
 .about {
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,7 @@
 
 }
 
-/* ===== Geo Section ===== */
+/* ===== Geo ===== */
 .geo-section {
   display: flex;
   justify-content: flex-start;
@@ -68,7 +68,7 @@
   font-size: 25px;
 }
 
-/* ===== Contact Section ===== */
+/* ===== Guestbook ===== */
 .contact-container {
   background: white;
   padding: 40px 50px;
@@ -136,7 +136,7 @@
   background-color: var(--horses);
 }
 
-/* ===== Note ===== */
+
 .note {
   margin-top: 15px;
   font-style: italic;
@@ -199,7 +199,7 @@
   padding-bottom: 10px;
 }
 
-/* ===== Hero Section ===== */
+/* ===== Index ===== */
 .hero {
   display: flex;
   justify-content: center;
@@ -239,7 +239,7 @@
   margin-bottom: 20px;
 }
 
-/* ===== Classified===== */
+/* ===== History ===== */
 .classified {
   background-color: var(--onyx);
   color: white;
